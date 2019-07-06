@@ -25,7 +25,7 @@ SECRET_KEY = 'lrqomr%c6arjsrux*7k#9=cy3=pv_ce_e0nodlxeg8p8bb&*a9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.7', '127.0.0.1']
+ALLOWED_HOSTS = ['192.168.1.3', '127.0.0.1', 'example.com']
 
 SITE_ID = 1
 # Application definition
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sitemaps',
     'main.apps.MainConfig',
     'taggit',
+    'django.contrib.postgres',
 ]
 
 MIDDLEWARE = [
