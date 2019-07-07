@@ -1,6 +1,7 @@
 {
-    "python.pythonPath": "C:\\Users\\Owais\\Desktop\\Programming\\Python\\testDjango\\djpython\\Scripts\\python.exe",
+    "python.pythonPath": "djpython\\Scripts\\python.exe",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
-    "python.linting.enabled": false
+    "python.linting.enabled": false,
+    "git.ignoreLimitWarning": true
 }

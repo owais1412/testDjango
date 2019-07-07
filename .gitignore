@@ -1,0 +1,3 @@
+*.pyc
+djpython/
+db.sqlite3
